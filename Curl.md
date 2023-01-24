@@ -27,7 +27,7 @@ curl -X OPTIONS https://www.target.com
 
 > curl -X POST -d "name=ahmed&age=21" https://jsonplaceholder.typicode.com/users // d : data
 
-> curl -X POST -d '{"name":"ahmed","age":"12"}' -H "Content-Type:application/json" https://jsonplaceholder.typicode.com/users // H : http header
+> curl -X POST -d '{"name":"ahmed","age":"12"}' -H "Content-Type:application/json" https://jsonplaceholder.typicode.com/users 
 
 ### DOWNLOADING images AND files :
 > curl <file-link> -o filename.extension
