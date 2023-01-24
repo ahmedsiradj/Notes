@@ -24,7 +24,9 @@ curl -X DELETE https://www.target.com
 curl -X OPTIONS https://www.target.com
 ```
 ### SEND DATA :
+
 > curl -X POST -d "name=ahmed&age=21" https://jsonplaceholder.typicode.com/users // d : data
+
 > curl -X POST -d '{"name":"ahmed","age":"12"}' -H "Content-Type:application/json" https://jsonplaceholder.typicode.com/users // H : http header
 
 ### DOWNLOADING images AND files :
@@ -34,7 +36,7 @@ curl -X OPTIONS https://www.target.com
 > curl https://staticg.sportskeeda.com/editor/2022/05/db755-16523472655799-1920.jpg -o kill.jpg
   
 ## For more Information :
-> Visit [docs][https://phoenixnap.com/kb/curl-command]
+> Visit [docs](https://phoenixnap.com/kb/curl-command)
 
 
 
