@@ -89,11 +89,14 @@ git push -u -f origin main
 ```
 ##### For delete a repo :
 ***You Need to auth your self before start deleting :***
+
 *Run this command*
+
 > gh auth refresh -s delete_repo
 
 *To delete the repo run this :*
-> gh repo delete <repo-name> --confirm
+
+> gh repo delete \<repo-name> --confirm
 
 
 
