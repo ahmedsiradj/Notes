@@ -68,6 +68,35 @@ git stach apply // to call the last hidden file and do not remove it from the st
 
 git stach pop stach@{4} // to call the specific hidden file
 ```
+### Handle Github Repo from CLI :
+
+*** First of all you need to install `gh` packages to interact with github using cli ***
+> sudo apt-get install gh
+
+##### For Create a repo :
+
+```
+gh repo create <repo-name> --private --clone --add-readme --description "your repo description" 
+
+git pull origin main
+
+git branch -m main
+
+< add your changing here ... >
+
+git push -u -f origin main 
+
+```
+##### For delete a repo :
+*** You Need to auth your self before start deleting : ***
+* Run this command *
+> gh auth refresh -s delete_repo
+
+*To delete the repo run this : *
+> gh repo delete <repo-name> --confirm
+
+
+
 
 
 
