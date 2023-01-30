@@ -1,6 +1,6 @@
 # Authentication Testing :
 
-* change login page protocols from `HTTPS` to `HTTP` \(remove 'S', i.e:http://www.example.org/login).
+* change login page protocols from `HTTPS` to `HTTP` \(remove `S`, i.e:http://www.example.org/login).
 * The interactions to test include the following:
 - Forms that allow users to handle forgotten password or other credential,edit credentials.
 - Forms that require the user to authenticate with another provider (for example, payment processing).
