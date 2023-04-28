@@ -38,7 +38,7 @@ git config --global --unset user.name
 ### SSH Github Connection :
 
 ```
-ssh-keygen -t ed25519 -C "ahmedsiradj9@gmail.com"
+ssh-keygen -t ed25519 -C "<your-email>@gmail.com"
 
 eval "$(ssh-agent -s)"
 
