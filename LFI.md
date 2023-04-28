@@ -69,8 +69,6 @@ Maintain the initial path: http://example.com/index.php?page=/var/www/../../etc/
 
 
 
-## References:
-
-[Tricks]([File Inclusion/Path traversal - HackTricks](https://book.hacktricks.xyz/pentesting-web/file-inclusion))
+## References: [Tricks](https://book.hacktricks.xyz/pentesting-web/file-inclusion)
 
 
