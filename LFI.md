@@ -65,7 +65,7 @@ Maintain the initial path: http://example.com/index.php?page=/var/www/../../etc/
 
 ##### Intresting `Functions()` :
 
-![](/home/ahmed/Downloads/5.jpg)
+![](5.jpg)
 
 
 
